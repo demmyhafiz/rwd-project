@@ -1,0 +1,48 @@
+body { 
+    font-family: Georgia, Times, "Times New Roman", serif;
+    background: #ffffff;
+}
+
+.font-title {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.fa-instagram {
+    padding: 5px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    color: #ffffff;
+    background: #D50000;
+}
+
+.fa-twitter {
+    padding: 5px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    color: #ffffff;
+    background: #D50000;
+}
+
+.fa-github {
+    padding: 5px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    color: #ffffff;
+    background: #D50000;
+}
+
+.fa-free-code-camp {
+    padding: 5px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    color: #ffffff;
+    background: #D50000;
+}
