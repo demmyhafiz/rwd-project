@@ -148,9 +148,8 @@ hr {
 
 #image {
     max-width: 100%;
-    width: 50%;
     height: auto;
-    display: inline-block;
+    display: block;
 }
 
 #img-div {
