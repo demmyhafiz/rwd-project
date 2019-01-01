@@ -3,19 +3,20 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 
-body { 
+body {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
     background: #ffffff;
     margin: 0;
+    padding-top: 3.5rem;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 ul {
@@ -26,16 +27,24 @@ ul {
 
 a {
     text-decoration: none;
+    color: #d50000;
+    background-color: transparent;
 }
 
-h1, h2, h3 {
+a:hover {
+    color: #0091EA;
+}
+
+h1,
+h2,
+h3 {
     margin: 0;
     text-align: center;
 }
 
 iframe {
-    max-width: 100%;
-    width: 640px; 
+    display: inline-block;
+    width: 100%;
     height: 480px;
 }
 
@@ -51,18 +60,35 @@ p {
     font-size: 1.1rem;
 }
 
+footer {
+    text-align: right;
+    padding: 1rem;
+    background-color: #f8f8f8;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) inset;
+}
+
+hr {
+    overflow: visible;
+    height: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 #tribute-info {
     width: 100%;
     padding: 0 5rem 0 5rem;
 }
 
 #headline {
-    padding: 3rem 0 3rem 0;
+    padding: 3rem 0 2rem 0;
 }
 
 #title {
     font-size: 3rem;
 }
+
 .banner {
     padding: 3rem;
     width: 100%;
@@ -75,7 +101,16 @@ p {
 .navbar {
     display: flex;
     padding: 0.5rem;
-    background-color: #d6d6d6;
+    background-color: #f8f8f8;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.navbar-fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
 }
 
 .navbar-nav {
@@ -128,22 +163,25 @@ p {
     padding: 0 5rem 0 5rem;
 }
 
-.menu-article {
-    background-color: #f6f6f6;
+.menu-article {}
+
+.yt-vid {
+    padding: 1rem 0 1rem 0;
 }
 
+.txt-quote {
+    margin: 3rem 0 3rem 0;
+    padding: 0 5rem 0 5rem;
+    text-align: center;
+}
 
+.fab {
+    opacity: 0.7;
+}
 
-
-
-
-
-
-
-
-
-
-
+.fab:hover {
+    opacity: 1;
+}
 
 .fa-instagram {
     padding: 5px;
@@ -151,7 +189,15 @@ p {
     text-decoration: none;
     border-radius: 20px;
     color: #ffffff;
-    background: #D50000;
+    background:
+        radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%),
+        radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+        radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+        radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
+        radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+        radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
+        radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+        linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
 }
 
 .fa-twitter {
@@ -160,7 +206,7 @@ p {
     text-decoration: none;
     border-radius: 20px;
     color: #ffffff;
-    background: #D50000;
+    background: #38A1F3;
 }
 
 .fa-github {
@@ -169,7 +215,7 @@ p {
     text-decoration: none;
     border-radius: 20px;
     color: #ffffff;
-    background: #D50000;
+    background: #383838;
 }
 
 .fa-free-code-camp {
@@ -178,5 +224,5 @@ p {
     text-decoration: none;
     border-radius: 20px;
     color: #ffffff;
-    background: #D50000;
+    background: #008006;
 }
