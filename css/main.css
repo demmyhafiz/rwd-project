@@ -1,24 +1,152 @@
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
 body { 
     font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
     background: #ffffff;
     margin: 0;
-    box-sizing: border-box;
 }
 
-img {
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    text-align: center;
+}
+
+iframe {
     max-width: 100%;
-    height: auto;
-    display: block;
+    width: 640px; 
+    height: 480px;
 }
 
+blockquote {
+    margin: 1rem 0 1rem 0;
+    padding: 0 5rem 0 5rem;
+    font-size: 1rem;
+    text-align: center;
 }
+
+p {
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+#tribute-info {
+    width: 100%;
+    padding: 0 5rem 0 5rem;
+}
+
+#headline {
+    padding: 3rem 0 3rem 0;
+}
+
+#title {
+    font-size: 3rem;
+}
+.banner {
+    padding: 3rem;
+    width: 100%;
+}
+
 .font-title {
     font-family: Verdana, Geneva, sans-serif;
 }
 
+.navbar {
+    display: flex;
+    padding: 0.5rem;
+    background-color: #d6d6d6;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+.navbar-menu {
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    text-align: left;
+    padding-left: 2rem;
+}
+
+.navbar-item {
+    text-align: -webkit-match-parent;
+    font-size: 1.25rem;
+}
+
+.navbar-icon {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    flex-flow: row wrap;
+    align-items: center;
+    padding-right: 2rem;
+}
+
+.icon-item {
+    padding-left: 1rem;
+}
+
+#image {
+    max-width: 100%;
+    width: 50%;
+    height: auto;
+    display: inline-block;
+}
+
+#img-div {
+    width: 100%;
+    text-align: center;
+}
+
+#img-caption {
+    margin-top: .5rem;
+    padding: 0 5rem 0 5rem;
+}
+
+.menu-article {
+    background-color: #f6f6f6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .fa-instagram {
     padding: 5px;
-    width: 30px;
     text-align: center;
     text-decoration: none;
     border-radius: 20px;
@@ -28,7 +156,6 @@ img {
 
 .fa-twitter {
     padding: 5px;
-    width: 30px;
     text-align: center;
     text-decoration: none;
     border-radius: 20px;
@@ -38,7 +165,6 @@ img {
 
 .fa-github {
     padding: 5px;
-    width: 30px;
     text-align: center;
     text-decoration: none;
     border-radius: 20px;
@@ -48,7 +174,6 @@ img {
 
 .fa-free-code-camp {
     padding: 5px;
-    width: 40px;
     text-align: center;
     text-decoration: none;
     border-radius: 20px;
