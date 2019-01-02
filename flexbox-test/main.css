@@ -1,0 +1,30 @@
+.container {
+	border: 1px solid black;
+	display: flex; /* parent container */ /* display block, default flex-direction is row, to right --> */ /* default justify-content is flex-start */ /*default align-items is stretch */
+/*	display: inline-flex; /* display inline-block */
+/*	flex-direction: column; /*direction to bottom | */
+/*	align-items: center; */
+}
+
+/* flex-direction: row -->
+
+main axis = inline dimension -->
+main-start will be where sentences begin in that writing mode
+cross axis = block dimension |
+
+   flex-direction: column |
+
+main axis = block dimension |
+main-start will be where blocks start to lay out in that writing mode
+cross axis = inline dimension ..>
+*/
+
+/* default initial values display: flex are;
+flex-grow: 0
+flex-shrink: 1
+flex-basis: auto
+*/
+
+.item { /* child aka items of parent container */
+	border: 1px solid red;
+}
