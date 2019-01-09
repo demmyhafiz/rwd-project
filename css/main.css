@@ -35,6 +35,14 @@ a:hover {
     color: #0091EA;
 }
 
+a:active {
+	background-color: black;
+}
+
+a:visited {
+	background-color: blue;
+}
+
 h1,
 h2,
 h3 {
