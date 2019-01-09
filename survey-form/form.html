@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Tribute Page to PewDiePie">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="../img/brofist.jpg" type="image">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+    crossorigin="anonymous">
+</head>
+
+<body>
+  <header class="navbar navbar-fixed">
+    <nav class="navbar-nav">
+      <ul class="navbar-menu">
+        <li class="navbar-item font-title"><a href="https://demmyhafiz.github.io/tribute-page">Home</a></li>
+        <li class="navbar-item font-title"><a href="https://demmyhafiz.github.io/tribute-page/survey-form">Survey</a></li>
+      </ul>
+      <div class="navbar-icon">
+        <a class="icon-item" href="https://www.freecodecamp.org/demmyhafiz"><span class="fab fa-free-code-camp fa-2x"></span></a>
+        <a class="icon-item" href="https://github.com/demmyhafiz"><span class="fab fa-github fa-2x"></span></a>
+        <a class="icon-item" href="https://instagram/demmyhafiz"><span class="fab fa-instagram fa-2x"></span></a>
+        <a class="icon-item" href="https://twitter.com/demmyhafiz"><span class="fab fa-twitter fa-2x"></span></a>
+      </div>
+    </nav>
+  </header>
+
+  <div id="main">
+    <div class="banner-secondary">
+      <h1 id="title">Survey Form</h1>
+      <p id="description">Prove that you've subscribed to PewDiePie!</p>
+    </div>
+    
+    <section class="form-format">
+      <form id="survey-form" action="#" method="POST">
+        <label id="name-label" class="label-control" for="name">Name</label>
+        <br><input type="text" name="name" class="form-control" id="name" placeholder="Enter your name" required>
+        <br><label id="email-label" class="label-control" for="email">E-mail</label>
+        <br><input type="email" name="email" class="form-control" id="email" placeholder="Enter your e-mail" required>
+        <br><label id="number-label" class="label-control" for="age">Age</label>
+        <br><input type="number" name="age" class="form-control" id="number" min="1" max="100" placeholder="Age" required>
+        <br><label id="choice-label" name="choice" class="label-control" for="choice">From where do you know PewDiePie?</label>
+        <br><select name="choice" id="dropdown">
+          <option disabled selected value>Select one</option>
+          <option value="youtube">Youtube</option>
+          <option value="twitter">Twitter</option>
+          <option value="instagram">Instagram</option>
+          <option value="news">Portal News</option>
+        </select>
+        <br><label id="radio-label" class="label-control" for="radio">Do you agree that Pewdiepie is King of Youtube?</label>
+        <br><input type="radio" name="yesno" id="yes" value="Yes"><label for="yes">Yes</label>
+        <input type="radio" name="yesno" id="no" value="No"><label for="no">No</label>
+        <br><label id="reason-label" name="reason" class="label-control" for="reason">What makes PewDiePie be a King of
+          Youtube?</label>
+        <br><input type="checkbox" name="reason" id="subscriber" value="1"><label for="subscriber">The most subsribed
+          Youtuber Channel</label>
+        <br><input type="checkbox" name="reason" id="gaming" value="2"><label for="gaming">Let's play Gaming video</label>
+        <br><input type="checkbox" name="reason" id="comedy" value="3"><label for="comedy">Humour and Comedy level</label>
+        <br><br><textarea name="comment" id="comment" cols="30" rows="10" placeholder="Enter your comment"></textarea>
+        <br><input type="submit" value="Submit" id="submit">
+
+
+
+
+
+
+
+
+
+
+
+      </form>
+    </section>
+  </div>
+
+  <footer><small><em>&copy; Demmy</em></small></footer>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>

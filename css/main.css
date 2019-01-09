@@ -56,7 +56,6 @@ blockquote {
 }
 
 p {
-    text-align: justify;
     font-size: 1.1rem;
 }
 
@@ -76,6 +75,10 @@ hr {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+#main {
+    width: 100%;
+}
+
 #tribute-info {
     width: 100%;
     padding: 0 5rem 0 5rem;
@@ -89,9 +92,36 @@ hr {
     font-size: 3rem;
 }
 
-.banner {
+#description {
+    text-align: center;
+}
+
+#survey-form {
+    width: 50%;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+.form-format {
+    width: 90%;
+    margin: 2rem auto 2rem auto;
+}
+
+.label-control {
+    display: inline-block;
+    margin-bottom: .5rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.banner-primary {
     padding: 3rem;
     width: 100%;
+}
+
+.banner-secondary {
+    width: 90%;
+    margin: 0 auto 0 auto;
 }
 
 .font-title {
@@ -131,6 +161,7 @@ hr {
 .navbar-item {
     text-align: -webkit-match-parent;
     font-size: 1.25rem;
+    margin-left: 1rem;
 }
 
 .navbar-icon {
