@@ -110,6 +110,18 @@ hr {
     text-align: center;
 }
 
+#form {
+        width: 50%;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+#header-img {
+    width: 100%;
+    max-width: 50px;
+    margin-left: 2rem;
+}
+
 .form-format {
     width: 90%;
     margin: 2rem auto 2rem auto;
@@ -263,4 +275,39 @@ hr {
     border-radius: 20px;
     color: #ffffff;
     background: #008006;
+}
+
+.content {
+    display: flex;
+    flex-flow: column wrap;
+    flex-basis: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc {
+    text-align: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.img-item {
+    width: 50%;
+    margin: 0 auto 0 auto;
+    opacity: 1;
+}
+
+.img-item:hover {
+    opacity: 0.7;
+}
+
+@media all and (max-width: 800px) {
+.navbar-nav {
+    justify-content: space-around;
+    flex-direction: column;
+}
 }
