@@ -277,37 +277,56 @@ hr {
     background: #008006;
 }
 
-.content {
-    display: flex;
-    flex-flow: column wrap;
-    flex-basis: auto;
-    justify-content: center;
-    align-items: center;
+
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
 }
 
-.desc {
-    text-align: center;
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
 }
 
-.item {
-    display: flex;
-    flex-direction: column;
-    margin-top: 1rem;
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
 }
 
-.img-item {
-    width: 50%;
-    margin: 0 auto 0 auto;
-    opacity: 1;
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
 }
 
-.img-item:hover {
-    opacity: 0.7;
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
 }
 
-@media all and (max-width: 800px) {
-.navbar-nav {
-    justify-content: space-around;
-    flex-direction: column;
+@media only screen and (max-width: 720px) {
+    .content {
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
 }
+
+@media only screen and (max-width: 720px) {
+    .navbar
 }
